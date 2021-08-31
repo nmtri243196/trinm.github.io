@@ -1,0 +1,87 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* bgc */
+  --primary-color: #ffc178;
+  --white-color: #ffffff;
+
+  /* font-size */
+  --font-size-title: 4rem;
+  --font-size-desc: 1.6rem;
+
+  /* font family */
+  --font-family-Montserrat: "Montserrat", sans-serif;
+  --font-family-worksans: 'Work Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  /* tương đương 10px = 1rem */
+}
+body {
+  font-family: var(--font-family-Montserrat);
+  line-height: 1;
+  font-size: 1.4rem;
+}
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+
+
+.clear{
+  clear: both;
+}
+/* block-header */
+
+
+/* block banner */
+.banner__bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+/* block OUT */
+
+/* block limited */
+
+/* block university */
+
+/* block footer */
+
+/* 
+
+
+.btn {
+  outline: none;
+  border: 0;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.btn--primary {
+  background-color: var(--primary-color);
+}
+.btn--size-large {
+  padding: 10px 20px;
+} */
